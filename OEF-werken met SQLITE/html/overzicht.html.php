@@ -11,34 +11,36 @@ include_once 'includes/startHTML.inc.php';
 
 
 
-echo " <h1> Hello ! </h1>
+echo "
+
+<div class=\"row\">
+    <div class=\"large-3 columns\"><!-- ... --></div>
+    <div class=\"large-6 columns\">";
 
 
- <div class=\"top-bar\">
-  <div class=\"top-bar-left\">
-    <ul class=\"dropdown menu\" data-dropdown-menu>
-      <li class=\"menu-text\">Site Title</li>
-      <li>
-        <a href=\"#\">One</a>
-        <ul class=\"menu vertical\">
-          <li><a href=\"#\">One</a></li>
-          <li><a href=\"#\">Two</a></li>
-          <li><a href=\"#\">Three</a></li>
-        </ul>
-      </li>
-      <li><a href=\"#\">Two</a></li>
-      <li><a href=\"#\">Three</a></li>
-    </ul>
-  </div>
-  <div class=\"top-bar-right\">
-    <ul class=\"menu\">
-      <li><input type=\"search\" placeholder=\"Search\"></li>
-      <li><button type=\"button\" class=\"button\">Search</button></li>
-    </ul>
-  </div>
+
+foreach ($boeken as $boek) {
+    echo "  <div class=\"callout secondary\">
+            <span>".$boek['titel']."</span> van <span>".$boek['auteur']."</span>
+            <form class='button-group tiny float-right'>
+                <input type = 'hidden' name='id' value='" . $boek['id'] . "' >
+                <button class='tiny button  alert'   type='submit' formaction='delete.php' formmethod='post' ><i class='fa fa-trash'></i></button>
+                <button class='tiny button  warning' type='submit' formaction='edit.php'   formmethod='post' ><i class='fa fa-pencil'></i></button>
+                <button class='tiny button  success' type='submit' formaction='detail.php' formmethod='post' ><i class='fa fa-search'></i></button>
+            </form>
+
+        </div>
+
+   ";
+
+};
+
+
+echo "
+    </div>
+    <div class=\"large-3 columns\"><!-- ... --></div>
 </div>
-
- ";
+";
 
 
 

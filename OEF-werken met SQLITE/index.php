@@ -8,4 +8,14 @@
 
 
 
+$conn = new PDO('sqlite:data/data.sqlite');
+$query = $conn->prepare('SELECT * FROM Boeken ');
+$query->execute();
+$boeken = $query->fetchAll();
+
+
+
+
+
+
 include_once "html/overzicht.html.php";
