@@ -12,6 +12,7 @@ if(!isset($_POST['actie'])){
 
 
     $boek = [
+        'id'            => '',
         'titel'         => '',
         'auteur'        => '',
         'samenvatting'  => '',
@@ -36,9 +37,10 @@ if(!isset($_POST['actie'])){
     //var_dump($query);
     //die;
 
-    echo'<h3>'.$boek['titel'].' van '.$boek['auteur'].' toegevoegd.</h3>';
-    echo '<a  href="index.php">Terug naar overzicht >> </a> ';
+    //echo'<h3>'.$boek['titel'].' van '.$boek['auteur'].' toegevoegd.</h3>';
+    //echo '<a  href="index.php">Terug naar overzicht >> </a> ';
     unset($_POST);
+    header('location: index.php');
 
     }
 

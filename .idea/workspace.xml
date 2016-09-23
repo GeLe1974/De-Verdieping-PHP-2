@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7362ee73-ecd9-4aa3-9f44-efefae2c402b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/new.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/data/data.sqlite" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/data/data.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/html/overzicht.html.php" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/html/overzicht.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/includes/startHTML.inc.php" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/includes/startHTML.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/index.php" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/new.php" afterPath="$PROJECT_DIR$/OEF-werken met SQLITE/new.php" />
     </list>
     <ignored path="project2016073 - PHP 2 CVO De Verdieping.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/delete.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
                 <marker date="1474627507000" expanded="true" signature="205:235" placeholder="DELETE FROM " />
@@ -87,15 +81,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.629562">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.458333">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
                 <marker date="1474630179000" expanded="true" signature="211:243" placeholder="SELECT * FRO... Boeken" />
                 <marker date="1474630179000" expanded="true" signature="211:244" placeholder="SELECT FROM Boeken... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/new.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.75364965">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="e#6#85#0#PHP" expanded="true" />
+                <marker date="1474640667000" expanded="true" signature="493:579" placeholder="INSERT INTO Boeken... " />
               </folding>
             </state>
           </provider>
@@ -119,22 +126,22 @@
       <file leaf-file-name="formulier.html.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="28" column="144" selection-start-line="28" selection-start-column="144" selection-end-line="28" selection-end-column="144" />
               <folding>
-                <marker date="1474628810000" expanded="true" signature="182:1093" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="207:1082" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="248:289" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="248:290" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="248:1070" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="340:444" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="340:493" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="515:623" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="515:673" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="515:892" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="701:718" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="701:748" placeholder="..." />
-                <marker date="1474628810000" expanded="true" signature="701:892" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="182:1125" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="207:1114" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="248:289" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="248:290" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="248:1102" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="340:444" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="340:493" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="528:636" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="528:686" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="528:921" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="728:745" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="728:775" placeholder="..." />
+                <marker date="1474640537000" expanded="true" signature="728:921" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -193,9 +200,9 @@
         <option value="$PROJECT_DIR$/OEF-werken met SQLITE/html/overzicht.html.php" />
         <option value="$PROJECT_DIR$/OEF-werken met SQLITE/includes/startHTML.inc.php" />
         <option value="$PROJECT_DIR$/OEF-werken met SQLITE/delete.php" />
-        <option value="$PROJECT_DIR$/OEF-werken met SQLITE/new.php" />
-        <option value="$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php" />
         <option value="$PROJECT_DIR$/OEF-werken met SQLITE/edit.php" />
+        <option value="$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php" />
+        <option value="$PROJECT_DIR$/OEF-werken met SQLITE/new.php" />
       </list>
     </option>
   </component>
@@ -256,64 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OEF-werken met SQLITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OEF-werken met SQLITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OEF-werken met SQLITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OEF-werken met SQLITE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,7 +338,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474617165056</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="oefening 1&#10;">
+      <created>1474630343439</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474630343439</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -397,10 +352,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="29" width="1881" height="994" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16856988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16856988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17237629" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31506848" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -408,7 +364,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -432,7 +387,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="oefening 1&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="oefening 1&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -484,19 +440,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1474628810000" expanded="true" signature="182:1093" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="207:1082" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="248:289" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="248:290" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="248:1070" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="340:444" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="340:493" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="515:623" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="515:673" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="515:892" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="701:718" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="701:748" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="701:892" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="182:1125" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="207:1114" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="248:289" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="248:290" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="248:1102" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="340:444" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="340:493" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="528:636" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="528:686" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="528:921" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="728:745" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="728:775" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="728:921" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -516,6 +472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -630,10 +587,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="28" column="144" selection-start-line="28" selection-start-column="144" selection-end-line="28" selection-end-column="144" />
+          <folding>
+            <marker date="1474640537000" expanded="true" signature="182:1125" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="207:1114" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="248:289" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="248:290" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="248:1102" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="340:444" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="340:493" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="528:636" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="528:686" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="528:921" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="728:745" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="728:775" placeholder="..." />
+            <marker date="1474640537000" expanded="true" signature="728:921" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.458333">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <marker date="1474630179000" expanded="true" signature="211:243" placeholder="SELECT * FRO... Boeken" />
+            <marker date="1474630179000" expanded="true" signature="211:244" placeholder="SELECT FROM Boeken... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/delete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
             <marker date="1474627507000" expanded="true" signature="205:235" placeholder="DELETE FROM " />
@@ -644,45 +635,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/new.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.439781">
-          <caret line="18" column="6" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.75364965">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
-            <marker date="1474628721000" expanded="true" signature="462:548" placeholder="INSERT INTO Boeken... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <marker date="1474628810000" expanded="true" signature="182:1093" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="207:1082" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="248:289" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="248:290" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="248:1070" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="340:444" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="340:493" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="515:623" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="515:673" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="515:892" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="701:718" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="701:748" placeholder="..." />
-            <marker date="1474628810000" expanded="true" signature="701:892" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.629562">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <marker date="1474630179000" expanded="true" signature="211:243" placeholder="SELECT * FRO... Boeken" />
-            <marker date="1474630179000" expanded="true" signature="211:244" placeholder="SELECT FROM Boeken... " />
+            <marker date="1474640667000" expanded="true" signature="493:579" placeholder="INSERT INTO Boeken... " />
           </folding>
         </state>
       </provider>
