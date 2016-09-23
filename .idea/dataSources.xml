@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Sqlite (Xerial) - data.sqlite" uuid="41f8368d-072c-492f-9d64-0e7af3826b89">
+  <component name="DataSourceManagerImpl" format="xml" hash="4076747563">
+    <data-source source="LOCAL" name="Sqlite (Xerial) - data.sqlite" uuid="b12510a3-b5ab-4d43-9dec-55cdff144cea">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/SQLITE/data/data.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/OEF-werken met SQLITE/data/data.sqlite</jdbc-url>
     </data-source>
   </component>
 </project>
