@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7362ee73-ecd9-4aa3-9f44-efefae2c402b" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/data/data.sqlite" afterPath="$PROJECT_DIR$/werken met SQLITE/data/data.sqlite" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/delete.php" afterPath="$PROJECT_DIR$/werken met SQLITE/delete.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/edit.php" afterPath="$PROJECT_DIR$/werken met SQLITE/edit.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php" afterPath="$PROJECT_DIR$/werken met SQLITE/html/formulier.html.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/html/overzicht.html.php" afterPath="$PROJECT_DIR$/werken met SQLITE/html/overzicht.html.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/includes/config.inc.php" afterPath="$PROJECT_DIR$/werken met SQLITE/includes/config.inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/includes/endHTML.inc.php" afterPath="$PROJECT_DIR$/werken met SQLITE/includes/endHTML.inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/includes/startHTML.inc.php" afterPath="$PROJECT_DIR$/werken met SQLITE/includes/startHTML.inc.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/index.php" afterPath="$PROJECT_DIR$/werken met SQLITE/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OEF-werken met SQLITE/new.php" afterPath="$PROJECT_DIR$/werken met SQLITE/new.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/BMI/BMI.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/BMI/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/euro-bef-calculator/EuroCalc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/euro-bef-calculator/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/project2016073 - PHP 2 CVO De Verdieping.iml" afterPath="$PROJECT_DIR$/.idea/project2016073 - PHP 2 CVO De Verdieping.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project2016073 - PHP 2 CVO De Verdieping.iws" />
@@ -73,61 +67,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/addUser.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/euro-bef-calculator/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listUsers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/listUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showUser.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/showUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24549918">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="15.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
-                <marker date="1442495140000" expanded="true" signature="275:343" placeholder="INSERT INTO users... " />
-                <marker date="1442495140000" expanded="true" signature="604:644" placeholder="SELECT * FRO... users" />
-                <marker date="1442495140000" expanded="true" signature="937:956" placeholder="SELECT * FRO... users" />
+                <element signature="e#6#85#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/f35aec64/2fc9c5df-6957-41ce-a793-34f10fcf5e43/users">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+      <file leaf-file-name="EuroCalc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP/euro-bef-calculator/EuroCalc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15570934">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -167,6 +124,12 @@
         <option value="$PROJECT_DIR$/OOP/voorbeeld-OOP/addUser.php" />
         <option value="$PROJECT_DIR$/OOP/voorbeeld-OOP/listUsers.php" />
         <option value="$PROJECT_DIR$/OOP/voorbeeld-OOP/showUser.php" />
+        <option value="$PROJECT_DIR$/OOP/BMI/BMI.class.php" />
+        <option value="$PROJECT_DIR$/OOP/BMI/index.php" />
+        <option value="$PROJECT_DIR$/OOP/euro-bef-calculator/index" />
+        <option value="$PROJECT_DIR$/OOP/euro-bef-calculator/calculator.class.php" />
+        <option value="$PROJECT_DIR$/OOP/euro-bef-calculator/index.php" />
+        <option value="$PROJECT_DIR$/OOP/euro-bef-calculator/EuroCalc.php" />
       </list>
     </option>
   </component>
@@ -180,8 +143,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="23" />
+    <option name="x" value="130" />
+    <option name="y" value="66" />
     <option name="width" value="1881" />
     <option name="height" value="1057" />
   </component>
@@ -227,6 +190,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="euro-bef-calculator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,14 +335,20 @@
       <option name="project" value="LOCAL" />
       <updated>1474719199924</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="OOP&#10;">
+      <created>1474723851088</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1474723851088</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="3142000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1881" height="1057" extended-state="0" />
+    <frame x="130" y="66" width="1881" height="1057" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16856988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -355,7 +356,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17237629" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29392973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29392973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -366,7 +368,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -386,7 +387,8 @@
     <MESSAGE value="oefening 1&#10;" />
     <MESSAGE value="functies&#10;" />
     <MESSAGE value="BMI-oefening&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="BMI-oefening&#10;" />
+    <MESSAGE value="OOP&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -701,19 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.10474632">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding>
-            <marker date="1474719133000" expanded="true" signature="1749:1850" placeholder="INSERT INTO bmi... " />
-            <marker date="1474719133000" expanded="true" signature="2095:2112" placeholder="SELECT * FRO... bmi" />
-            <marker date="1474719133000" expanded="true" signature="2322:2350" placeholder="SELECT * FRO... bmi" />
-            <marker date="1474719133000" expanded="true" signature="2322:2353" placeholder="SELECT * FRO... bmi" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functies/BMI/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.1764708">
@@ -769,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="15.0">
+        <state vertical-scroll-proportion="-0.58919805">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1442495140000" expanded="true" signature="275:343" placeholder="INSERT INTO users... " />
@@ -783,6 +772,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24549918">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/BMI/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4152249">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/BMI/BMI.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08571429">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1937716">
+          <caret line="46" column="19" selection-start-line="33" selection-start-column="4" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <marker date="1474719133000" expanded="true" signature="1749:1850" placeholder="INSERT INTO bmi... " />
+            <marker date="1474719133000" expanded="true" signature="2095:2112" placeholder="SELECT * FRO... bmi" />
+            <marker date="1474719133000" expanded="true" signature="2322:2350" placeholder="SELECT * FRO... bmi" />
+            <marker date="1474719133000" expanded="true" signature="2322:2353" placeholder="SELECT * FRO... bmi" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/euro-bef-calculator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/euro-bef-calculator/EuroCalc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15570934">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
