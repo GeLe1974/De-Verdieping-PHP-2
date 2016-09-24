@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7362ee73-ecd9-4aa3-9f44-efefae2c402b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functies/dbFuncties.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="project2016073 - PHP 2 CVO De Verdieping.iws" />
@@ -46,70 +45,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="startHTML.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/includes/startHTML.inc.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functies/BMI/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.29411766">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
               <folding>
-                <marker date="1474627329000" expanded="true" signature="64:837" placeholder="..." />
-                <marker date="1474627329000" expanded="true" signature="73:479" placeholder="..." />
-                <marker date="1474627329000" expanded="true" signature="488:837" placeholder="..." />
-                <marker date="1474627329000" expanded="true" signature="515:832" placeholder="..." />
-                <marker date="1474627329000" expanded="true" signature="546:774" placeholder="..." />
-                <marker date="1474627329000" expanded="true" signature="598:765" placeholder="..." />
-                <marker date="1474627329000" expanded="true" signature="651:709" placeholder="..." />
-                <marker date="1474627329000" expanded="true" signature="806:825" placeholder="..." />
+                <marker date="1474716495000" expanded="true" signature="771:872" placeholder="INSERT INTO bmi... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/delete.php">
+      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/config.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="30" />
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bmi-result.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functies/BMI/bmi-result.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7705479">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-                <marker date="1474627507000" expanded="true" signature="205:235" placeholder="DELETE FROM " />
-                <marker date="1474627507000" expanded="true" signature="205:236" placeholder="DELETE FROM " />
+                <marker date="1474717768000" expanded="true" signature="199:229" placeholder="SELECT * FRO... bmi" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/edit.php">
+      <file leaf-file-name="overview.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functies/BMI/overview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.458333">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-                <marker date="1474630179000" expanded="true" signature="211:243" placeholder="SELECT * FRO... Boeken" />
-                <marker date="1474630179000" expanded="true" signature="211:244" placeholder="SELECT FROM Boeken... " />
+                <marker date="1474717510000" expanded="true" signature="780:881" placeholder="INSERT INTO bmi... " />
+                <marker date="1474717510000" expanded="true" signature="1110:1127" placeholder="SELECT * FRO... bmi" />
+                <marker date="1474717510000" expanded="true" signature="1337:1365" placeholder="SELECT * FRO... bmi" />
+                <marker date="1474717510000" expanded="true" signature="1337:1368" placeholder="SELECT * FRO... bmi" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/new.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.208334">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-              <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-                <marker date="1474640667000" expanded="true" signature="493:579" placeholder="INSERT INTO Boeken... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbFuncties.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dbFuncties.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functies/dbFuncties.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4599018">
+            <state vertical-scroll-proportion="-23.583334">
               <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
@@ -122,75 +120,6 @@
                 <marker date="1474709710000" expanded="true" signature="1529:1567" placeholder="UPDATE ${$ta... " />
                 <marker date="1474709710000" expanded="true" signature="1986:2003" placeholder="SELECT ${$co... " />
                 <marker date="1474709710000" expanded="true" signature="1986:2004" placeholder="SELECT ${$co... ${$table}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boeken" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/f35aec64/b12510a3-b5ab-4d43-9dec-55cdff144cea/Boeken">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formulier.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="28" column="144" selection-start-line="28" selection-start-column="144" selection-end-line="28" selection-end-column="144" />
-              <folding>
-                <marker date="1474640537000" expanded="true" signature="182:1125" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="207:1114" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="248:289" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="248:290" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="248:1102" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="340:444" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="340:493" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="528:636" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="528:686" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="528:921" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="728:745" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="728:775" placeholder="..." />
-                <marker date="1474640537000" expanded="true" signature="728:921" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-                <marker date="1474621096000" expanded="true" signature="158:178" placeholder="SELECT * FRO... Boeken" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overzicht.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/html/overzicht.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="28" column="109" selection-start-line="28" selection-start-column="109" selection-end-line="28" selection-end-column="109" />
-              <folding>
-                <element signature="e#6#85#0#PHP" expanded="true" />
-                <marker date="1474627036000" expanded="true" signature="160:250" placeholder="..." />
-                <marker date="1474627036000" expanded="true" signature="160:1118" placeholder="..." />
-                <marker date="1474627036000" expanded="true" signature="330:1026" placeholder="..." />
-                <marker date="1474627036000" expanded="true" signature="468:803" placeholder="..." />
-                <marker date="1474627036000" expanded="true" signature="468:1010" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -223,6 +152,11 @@
         <option value="$PROJECT_DIR$/OEF-werken met SQLITE/html/formulier.html.php" />
         <option value="$PROJECT_DIR$/OEF-werken met SQLITE/new.php" />
         <option value="$PROJECT_DIR$/Functies/dbFuncties.php" />
+        <option value="$PROJECT_DIR$/Functies/BMI/includes/config.inc.php" />
+        <option value="$PROJECT_DIR$/Functies/BMI/overview.php" />
+        <option value="$PROJECT_DIR$/Functies/BMI/index.php" />
+        <option value="$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php" />
+        <option value="$PROJECT_DIR$/Functies/BMI/bmi-result.php" />
       </list>
     </option>
   </component>
@@ -300,6 +234,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="De-Verdieping-PHP-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BMI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -314,13 +288,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OEF-werken met SQLITE" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/OEF-werken met SQLITE/html" />
       <recent name="$PROJECT_DIR$/OEF-werken met SQLITE/includes" />
       <recent name="$PROJECT_DIR$/SQLITE" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Functies" />
+      <recent name="$PROJECT_DIR$/OEF-werken met SQLITE" />
     </key>
   </component>
   <component name="RunManager">
@@ -384,7 +359,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474641099809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="functies&#10;">
+      <created>1474714012967</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1474714012967</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -428,7 +409,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="oefening 1&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="oefening 1&#10;" />
+    <MESSAGE value="functies&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="functies&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -673,6 +655,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/bmi.sqlite">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OEF-werken met SQLITE/new.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.208334">
@@ -684,9 +682,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.29411766">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding>
+            <marker date="1474716495000" expanded="true" signature="771:872" placeholder="INSERT INTO bmi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/overview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Functies/dbFuncties.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4599018">
+        <state vertical-scroll-proportion="-23.583334">
           <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
@@ -699,6 +723,29 @@
             <marker date="1474709710000" expanded="true" signature="1529:1567" placeholder="UPDATE ${$ta... " />
             <marker date="1474709710000" expanded="true" signature="1986:2003" placeholder="SELECT ${$co... " />
             <marker date="1474709710000" expanded="true" signature="1986:2004" placeholder="SELECT ${$co... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <marker date="1474717510000" expanded="true" signature="780:881" placeholder="INSERT INTO bmi... " />
+            <marker date="1474717510000" expanded="true" signature="1110:1127" placeholder="SELECT * FRO... bmi" />
+            <marker date="1474717510000" expanded="true" signature="1337:1365" placeholder="SELECT * FRO... bmi" />
+            <marker date="1474717510000" expanded="true" signature="1337:1368" placeholder="SELECT * FRO... bmi" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/bmi-result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7705479">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1474717768000" expanded="true" signature="199:229" placeholder="SELECT * FRO... bmi" />
           </folding>
         </state>
       </provider>
