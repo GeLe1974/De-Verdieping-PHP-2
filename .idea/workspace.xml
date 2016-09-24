@@ -365,7 +365,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474714012967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BMI-oefening&#10;">
+      <created>1474717778780</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474717778780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -410,7 +416,8 @@
     <MESSAGE value="start" />
     <MESSAGE value="oefening 1&#10;" />
     <MESSAGE value="functies&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="functies&#10;" />
+    <MESSAGE value="BMI-oefening&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="BMI-oefening&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
