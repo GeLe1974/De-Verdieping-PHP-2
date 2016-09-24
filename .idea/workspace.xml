@@ -45,45 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functies/BMI/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.29411766">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-              <folding>
-                <marker date="1474716495000" expanded="true" signature="771:872" placeholder="INSERT INTO bmi... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/config.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bmi-result.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functies/BMI/bmi-result.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7705479">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <marker date="1474717768000" expanded="true" signature="199:229" placeholder="SELECT * FRO... bmi" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overview.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functies/BMI/overview.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5393836">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -92,13 +58,13 @@
       <file leaf-file-name="functions.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state vertical-scroll-proportion="2.6666667">
+              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
               <folding>
-                <marker date="1474717510000" expanded="true" signature="780:881" placeholder="INSERT INTO bmi... " />
-                <marker date="1474717510000" expanded="true" signature="1110:1127" placeholder="SELECT * FRO... bmi" />
-                <marker date="1474717510000" expanded="true" signature="1337:1365" placeholder="SELECT * FRO... bmi" />
-                <marker date="1474717510000" expanded="true" signature="1337:1368" placeholder="SELECT * FRO... bmi" />
+                <marker date="1474719133000" expanded="true" signature="1749:1850" placeholder="INSERT INTO bmi... " />
+                <marker date="1474719133000" expanded="true" signature="2095:2112" placeholder="SELECT * FRO... bmi" />
+                <marker date="1474719133000" expanded="true" signature="2322:2350" placeholder="SELECT * FRO... bmi" />
+                <marker date="1474719133000" expanded="true" signature="2322:2353" placeholder="SELECT * FRO... bmi" />
               </folding>
             </state>
           </provider>
@@ -154,9 +120,9 @@
         <option value="$PROJECT_DIR$/Functies/dbFuncties.php" />
         <option value="$PROJECT_DIR$/Functies/BMI/includes/config.inc.php" />
         <option value="$PROJECT_DIR$/Functies/BMI/overview.php" />
+        <option value="$PROJECT_DIR$/Functies/BMI/bmi-result.php" />
         <option value="$PROJECT_DIR$/Functies/BMI/index.php" />
         <option value="$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php" />
-        <option value="$PROJECT_DIR$/Functies/BMI/bmi-result.php" />
       </list>
     </option>
   </component>
@@ -371,7 +337,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474717778780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="BMI-oefening&#10;">
+      <created>1474717786267</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1474717786267</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -697,24 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29411766">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding>
-            <marker date="1474716495000" expanded="true" signature="771:872" placeholder="INSERT INTO bmi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/overview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functies/dbFuncties.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.583334">
@@ -734,26 +688,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/overview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <marker date="1474717510000" expanded="true" signature="780:881" placeholder="INSERT INTO bmi... " />
-            <marker date="1474717510000" expanded="true" signature="1110:1127" placeholder="SELECT * FRO... bmi" />
-            <marker date="1474717510000" expanded="true" signature="1337:1365" placeholder="SELECT * FRO... bmi" />
-            <marker date="1474717510000" expanded="true" signature="1337:1368" placeholder="SELECT * FRO... bmi" />
-          </folding>
+        <state vertical-scroll-proportion="0.07364976">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Functies/BMI/bmi-result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7705479">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.882353">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6666667">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding>
-            <marker date="1474717768000" expanded="true" signature="199:229" placeholder="SELECT * FRO... bmi" />
+            <marker date="1474719133000" expanded="true" signature="1749:1850" placeholder="INSERT INTO bmi... " />
+            <marker date="1474719133000" expanded="true" signature="2095:2112" placeholder="SELECT * FRO... bmi" />
+            <marker date="1474719133000" expanded="true" signature="2322:2350" placeholder="SELECT * FRO... bmi" />
+            <marker date="1474719133000" expanded="true" signature="2322:2353" placeholder="SELECT * FRO... bmi" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functies/BMI/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5393836">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
