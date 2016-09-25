@@ -1,6 +1,6 @@
 <?php
 
-namespace CLASSES;
+
 
 
 class DB

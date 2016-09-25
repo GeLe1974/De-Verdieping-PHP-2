@@ -112,7 +112,7 @@ class Quote {
 
     public function findById($id)
     {
-        $query = "SELECT * FROM".self::$dbTable."WHERE id=".$id;
+        $query = "SELECT * FROM ".self::$dbTable."WHERE id=".$id;
         $db = new DB;
         $result = $db->doQuery($query);
 
@@ -122,6 +122,32 @@ class Quote {
 
     public function getAll($options = [])
     {
+        $query = "SELECT * FROM ".self::$dbTable;
+
+        if (isset($options['orderby'])){
+            $query .= " ORDER BY ".$options['orderby'];
+        }
+        if (isset($options['limit'])){
+            $query .= " LIMIT " . $options['limit'];
+        }
+
+        $db = new \DB();
+        $result = $db->doQuery($query);
+
+        return $result->fetchAll(PDO::FETCH_CLASS,get_called_class());
+    }
+
+    public function validate()
+    {
+        $formerrors =[];
+
+        if(empty($this->name)){
+            $formerrors['name']  ='Name is required';
+        }
+        if(empty($this->quote)){
+            $formerrors['quote'] = 'Quote is required';
+        }
+        return $formerrors;
 
     }
 

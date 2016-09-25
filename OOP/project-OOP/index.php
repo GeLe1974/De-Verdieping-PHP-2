@@ -2,6 +2,19 @@
 
 include_once "includes/config.inc.php";
 
+if($_POST){
+    $quote = new Quote($_POST);
+    $formerrors=$quote->validate();
+    if(empty($formerrors)){
+        $quote->save();
+        unset($quote);
+    }
+}
+
+$quotes= Quote::getAll(['orderby'=>'id DESC']);
+
+//$quotes = new Quote();
+//$quotes->getAll(['orderby'=>'id DESC']);
 
 
 include_once "includes/startHTML.inc.php";
@@ -11,14 +24,20 @@ include_once "includes/startHTML.inc.php";
 <div class="row">
   <div class="col-md-8 mainContent">
 
-        <blockquote>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at beatae eum ex iure magnam optio quaerat quibusdam ratione, sint!</p>
-          <footer>As told by <cite title="Source Title">Bert</cite></footer>
-          <div class="editLinks">
-            <a href="editQuote.php?id=2"><i class="glyphicon glyphicon-pencil"></i></a>
-            <a href="deleteQuote.php?id=2"><i class="glyphicon glyphicon-remove"></i></a>
-          </div>
-        </blockquote>
+      <?php if (count($quotes)): ?>
+          <?php foreach ($quotes as $q): ?>
+              <blockquote>
+                  <p><?= $q->getQuote(); ?></p>
+                  <footer>As told by <cite title="Source Title"><?= $q->getName(); ?></cite></footer>
+                  <div class="editLinks">
+                      <a href="editQuote.php?id=<?= $q->getId() ?>"><i class="glyphicon glyphicon-pencil"></i></a>
+                      <a href="deleteQuote.php?id=<?= $q->getId() ?>"><i class="glyphicon glyphicon-remove"></i></a>
+                  </div>
+              </blockquote>
+          <?php endforeach; ?>
+      <?php else: ?>
+          <p>Er werden geen quotes gevonden.</p>
+      <?php endif; ?>
 
   </div>
 
