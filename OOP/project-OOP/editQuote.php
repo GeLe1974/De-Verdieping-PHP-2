@@ -2,6 +2,27 @@
 
 include_once "includes/config.inc.php";
 
+if (isset($_GET['id'])) {
+  $quote = Quote::findById($_GET['id']);
+
+  if ($_POST) {
+    // aanpassen
+    $quote->setName($_POST['name']);
+    $quote->setQuote($_POST['quote']);
+    $formerrors = $quote->validate();
+
+    if (empty($formerrors)) {
+      $quote->save();
+      header('location:index.php');
+      exit;
+    }
+  }
+}
+
+if (!isset($quote) or !$quote) {
+  header("location: index.php");
+  exit;
+}
 
 
 include_once "includes/startHTML.inc.php";

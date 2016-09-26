@@ -15,7 +15,8 @@ $quotes= Quote::getAll(['orderby'=>'id DESC']);
 
 //$quotes = new Quote();
 //$quotes->getAll(['orderby'=>'id DESC']);
-
+//var_dump($quotes);
+//die;
 
 include_once "includes/startHTML.inc.php";
 

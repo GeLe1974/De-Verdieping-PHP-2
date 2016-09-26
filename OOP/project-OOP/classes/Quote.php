@@ -1,7 +1,7 @@
 <?php
 
 
-use CLASSES\DB;
+
 
 class Quote {
 
@@ -76,9 +76,9 @@ class Quote {
     public function save()
     {
         if($this->id){
-            $query = "UPDATE". self::$dbTable . "SET name=:name, quote=:quote WHERE id=".$this->id;
+            $query = "UPDATE ". self::$dbTable . " SET name=:name, quote=:quote WHERE id= ".$this->id;
         }else{
-            $query = "INSERT INTO".self::$dbTable."(name,quote) VALUES (:name, :quote)";
+            $query = "INSERT INTO ".self::$dbTable." (name,quote) VALUES (:name, :quote)";
         }
 
         $db = new DB;
@@ -99,7 +99,7 @@ class Quote {
     public function delete()
     {
         if($this->id){
-            $query = "DELETE FROM".self::$dbTable."WHERE id=".$this->id;
+            $query = "DELETE FROM ".self::$dbTable." WHERE id=".$this->id;
             $db = new DB;
             $result = $db->doQuery($query);
 
@@ -110,9 +110,9 @@ class Quote {
         return false;
     }
 
-    public function findById($id)
+    public static function findById($id)
     {
-        $query = "SELECT * FROM ".self::$dbTable."WHERE id=".$id;
+        $query = "SELECT * FROM " .self::$dbTable. " WHERE id= ".$id;
         $db = new DB;
         $result = $db->doQuery($query);
 
@@ -120,7 +120,7 @@ class Quote {
     }
 
 
-    public function getAll($options = [])
+    public static function getAll($options = [])
     {
         $query = "SELECT * FROM ".self::$dbTable;
 

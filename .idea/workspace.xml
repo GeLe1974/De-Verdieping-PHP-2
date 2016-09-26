@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7362ee73-ecd9-4aa3-9f44-efefae2c402b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/classes/DB.php" afterPath="$PROJECT_DIR$/OOP/project-OOP/classes/DB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php" afterPath="$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/css/styles.css" afterPath="$PROJECT_DIR$/OOP/project-OOP/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/database.sqlite" afterPath="$PROJECT_DIR$/OOP/project-OOP/database.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/deleteQuote.php" afterPath="$PROJECT_DIR$/OOP/project-OOP/deleteQuote.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/editQuote.php" afterPath="$PROJECT_DIR$/OOP/project-OOP/editQuote.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/index.php" afterPath="$PROJECT_DIR$/OOP/project-OOP/index.php" />
     </list>
     <ignored path="project2016073 - PHP 2 CVO De Verdieping.iws" />
@@ -65,11 +66,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OOP/project-OOP/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26953566">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state vertical-scroll-proportion="-8.041667">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.708333">
+              <caret line="101" column="53" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
+              <folding>
+                <marker date="1474880614000" expanded="true" signature="1341:1407" placeholder="INSERT INTO ${self::$dbTable}... " />
+                <marker date="1474880614000" expanded="true" signature="1800:1840" placeholder="DELETE FROM " />
+                <marker date="1474880614000" expanded="true" signature="2108:2152" placeholder="SELECT * FRO... ${self::$dbTable}" />
+                <marker date="1474880614000" expanded="true" signature="2108:2153" placeholder="SELECT * FRO... ${self::$dbTable}" />
+                <marker date="1474880614000" expanded="true" signature="2361:2375" placeholder="SELECT * FRO... ${self::$dbTable}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteQuote.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP/project-OOP/deleteQuote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31304348">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editQuote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOP/project-OOP/editQuote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3529413">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -128,9 +165,11 @@
         <option value="$PROJECT_DIR$/OOP/euro-bef-calculator/EuroCalc.php" />
         <option value="$PROJECT_DIR$/OOP/project-OOP/includes/config.inc.php" />
         <option value="$PROJECT_DIR$/OOP/project-OOP/classes/DB.php" />
-        <option value="$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php" />
-        <option value="$PROJECT_DIR$/OOP/project-OOP/index.php" />
         <option value="$PROJECT_DIR$/OOP/project-OOP/css/styles.css" />
+        <option value="$PROJECT_DIR$/OOP/project-OOP/index.php" />
+        <option value="$PROJECT_DIR$/OOP/project-OOP/editQuote.php" />
+        <option value="$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php" />
+        <option value="$PROJECT_DIR$/OOP/project-OOP/deleteQuote.php" />
       </list>
     </option>
   </component>
@@ -223,28 +262,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,7 +436,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474811003595</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="OOP&#10;">
+      <created>1474834199445</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1474834199445</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -438,7 +461,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2930481" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -473,39 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/werken met SQLITE/html/formulier.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474640537000" expanded="true" signature="182:1125" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="207:1114" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="248:289" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="248:290" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="248:1102" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="340:444" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="340:493" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="528:636" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="528:686" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="528:921" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="728:745" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="728:775" placeholder="..." />
-            <marker date="1474640537000" expanded="true" signature="728:921" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/werken met SQLITE/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <marker date="1474621096000" expanded="true" signature="158:178" placeholder="SELECT * FRO... Boeken" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/werken met SQLITE/data/data.sqlite">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -935,17 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.405436">
-          <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
-          <folding>
-            <marker date="1474830185000" expanded="true" signature="2109:2150" placeholder="SELECT * FRO... ${self::$dbTable}" />
-            <marker date="1474830185000" expanded="true" signature="2351:2365" placeholder="SELECT * FRO... ${self::$dbTable}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/project-OOP/includes/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06795017">
@@ -975,10 +954,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/editQuote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3529413">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/project-OOP/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26953566">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state vertical-scroll-proportion="-8.041667">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.708333">
+          <caret line="101" column="53" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
+          <folding>
+            <marker date="1474880614000" expanded="true" signature="1341:1407" placeholder="INSERT INTO ${self::$dbTable}... " />
+            <marker date="1474880614000" expanded="true" signature="1800:1840" placeholder="DELETE FROM " />
+            <marker date="1474880614000" expanded="true" signature="2108:2152" placeholder="SELECT * FRO... ${self::$dbTable}" />
+            <marker date="1474880614000" expanded="true" signature="2108:2153" placeholder="SELECT * FRO... ${self::$dbTable}" />
+            <marker date="1474880614000" expanded="true" signature="2361:2375" placeholder="SELECT * FRO... ${self::$dbTable}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/deleteQuote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31304348">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding />
         </state>
       </provider>
