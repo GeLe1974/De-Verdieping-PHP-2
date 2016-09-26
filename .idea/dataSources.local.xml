@@ -2,8 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Sqlite (Xerial) - database.sqlite" uuid="77388d05-6cf7-463d-8563-984291b9711c">
-      <secret-storage>master_key</secret-storage>
-      <auth-required>false</auth-required>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
     </data-source>
   </component>
 </project>
