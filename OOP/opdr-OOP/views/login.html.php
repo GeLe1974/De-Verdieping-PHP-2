@@ -22,9 +22,9 @@ echo "
 
 <!-- Text input-->
 <div class=\"form-group\">
-  <label class=\"col-md-4 control-label\" for=\"email\">Email</label>
+  <label class=\"col-md-4 control-label\" for=\"username\">Username</label>
   <div class=\"col-md-4\">
-  <input id=\"email\" name=\"email\" placeholder=\"email@email.com\" class=\"form-control input-md\" required=\"\" type=\"text\">
+  <input id=\"username\" name=\"username\" placeholder=\"email@email.com\" class=\"form-control input-md\" required=\"\" type=\"text\">
   <span class=\"help-block\"></span>
   </div>
 </div>

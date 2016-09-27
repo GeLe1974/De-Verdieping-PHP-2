@@ -3,6 +3,7 @@ session_start();
 
 include_once 'classes/Auth.php';
 include_once 'classes/Weigth.php';
+include_once 'classes/DB.php';
 
 
 /*
