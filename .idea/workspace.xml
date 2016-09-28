@@ -2,24 +2,343 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7362ee73-ecd9-4aa3-9f44-efefae2c402b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/classes/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/classes/Weigth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/classes/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/views/overview.html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/voorbeeld-OOP/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/voorbeeld-OOP/addUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/voorbeeld-OOP/listUsers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/voorbeeld-OOP/showUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OOP/voorbeeld-OOP/users.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/image/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/magicline/images/icon-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/img/github-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/img/header-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/img/header-separator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/img/navigation-tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/assets/inlineall/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/assets/sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/font/fontello.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/font/fontello.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/images/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/scayt/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/scayt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/css/samples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/js/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/js/sf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/appendto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/assets/posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/assets/uilanguages/languages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/datafiltering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/dialog/assets/my_dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/dialog/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/divreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/enterkey/enterkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/htmlwriter/outputforflash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/htmlwriter/outputhtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/inlineall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/inlinebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/inlinetextarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/magicline/magicline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/replacebyclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/replacebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/sample_posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/tabindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/toolbar/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/uicolor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/uilanguages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/wysiwygarea/fullpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/old/xhtmlstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/css/fontello.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/font/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/font/fontello.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/skins/moono/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/ckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/classes/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/classes/Quote.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/database.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/deleteQuote.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/editQuote.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/includes/config.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/includes/endHTML.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/includes/quoteForm.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/includes/startHTML.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Libraries/CKeditor/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/opdr-OOP/database.sqlite" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/database.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/opdr-OOP/includes/config.inc.php" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/includes/config.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/opdr-OOP/index.php" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/opdr-OOP/login.php" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/opdr-OOP/views/login.html.php" afterPath="$PROJECT_DIR$/OOP/opdr-OOP/views/login.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OOP/project-OOP/database.sqlite" afterPath="$PROJECT_DIR$/OOP/project-OOP/database.sqlite" />
     </list>
     <ignored path="project2016073 - PHP 2 CVO De Verdieping.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,150 +391,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Weigth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/classes/Weigth.php">
+      <file leaf-file-name="editQuote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/editQuote.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="-15.416667">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/classes/Auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1299852">
-              <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-              <folding>
-                <marker date="1474974138000" expanded="true" signature="577:589" placeholder="INSERT INTO ${$result = $db-&gt;dbInsert(self::$table,['username'=&gt;$this-&gt;username,'password'=&gt;$this-&gt;password])}... " />
-                <marker date="1474974138000" expanded="true" signature="577:654" placeholder="INSERT INTO ${self::$table}... " />
-                <marker date="1474974138000" expanded="true" signature="577:655" placeholder="INSERT INTO ${self::$table}... " />
-                <marker date="1474974138000" expanded="true" signature="939:952" placeholder="SELECT * FRO... " />
-                <marker date="1474974138000" expanded="true" signature="939:953" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="939:986" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="939:987" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="939:989" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="939:1000" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="939:1003" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="939:1004" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="939:1088" placeholder="SELECT * FRO... ${self::$table}" />
-                <marker date="1474974138000" expanded="true" signature="1888:1920" placeholder="/** * @retur... " />
-                <marker date="1474974138000" expanded="true" signature="2004:2045" placeholder="/** * @param... " />
-                <marker date="1474974138000" expanded="true" signature="2143:2175" placeholder="/** * @retur... " />
-                <marker date="1474974138000" expanded="true" signature="2259:2300" placeholder="/** * @param... " />
-                <marker date="1474974138000" expanded="true" signature="2398:2430" placeholder="/** * @retur... " />
-                <marker date="1474974138000" expanded="true" signature="2502:2537" placeholder="/** * @param... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overview.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/views/overview.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/f35aec64/77388d05-6cf7-463d-8563-984291b9711c/users">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/index.php">
+        <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.125">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="-14.166667">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/login.php">
+      <file leaf-file-name="quoteForm.inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/includes/quoteForm.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/views/login.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.375">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-              <folding>
-                <marker date="1474970441000" expanded="true" signature="161:1291" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="172:1283" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="209:332" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="382:674" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="485:667" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="725:1019" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="828:1012" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="1063:1270" placeholder="..." />
-                <marker date="1474970441000" expanded="true" signature="1156:1263" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/DB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1474916158000" expanded="true" signature="1366:1409" placeholder="INSERT INTO ${$table}... " />
-                <marker date="1474916158000" expanded="true" signature="1625:1656" placeholder="DELETE FROM " />
-                <marker date="1474916158000" expanded="true" signature="2074:2112" placeholder="UPDATE ${$ta... " />
-                <marker date="1474916158000" expanded="true" signature="2611:2629" placeholder="SELECT ${$co... ${$table}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quote.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.625">
-              <caret line="93" column="21" selection-start-line="86" selection-start-column="8" selection-end-line="93" selection-end-column="21" />
-              <folding>
-                <marker date="1474880614000" expanded="true" signature="1341:1407" placeholder="INSERT INTO ${self::$dbTable}... " />
-                <marker date="1474880614000" expanded="true" signature="1800:1840" placeholder="DELETE FROM " />
-                <marker date="1474880614000" expanded="true" signature="2108:2153" placeholder="SELECT * FRO... ${self::$dbTable}" />
-                <marker date="1474880614000" expanded="true" signature="2361:2375" placeholder="SELECT * FRO... ${self::$dbTable}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.583334">
-              <caret line="80" column="69" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="69" />
-              <folding>
-                <marker date="1442495140000" expanded="true" signature="275:343" placeholder="INSERT INTO users... " />
-                <marker date="1442495140000" expanded="true" signature="604:644" placeholder="SELECT * FRO... users" />
-                <marker date="1442495140000" expanded="true" signature="937:956" placeholder="SELECT * FRO... users" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -283,6 +484,8 @@
         <option value="$PROJECT_DIR$/OOP/opdr-OOP/classes/Auth.php" />
         <option value="$PROJECT_DIR$/OOP/opdr-OOP/login.php" />
         <option value="$PROJECT_DIR$/OOP/opdr-OOP/views/overview.html.php" />
+        <option value="$PROJECT_DIR$/Libraries/CKeditor/includes/startHTML.inc.php" />
+        <option value="$PROJECT_DIR$/Libraries/CKeditor/includes/quoteForm.inc.php" />
       </list>
     </option>
   </component>
@@ -296,10 +499,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="72" />
-    <option name="width" value="1408" />
-    <option name="height" value="1024" />
+    <option name="x" value="139" />
+    <option name="y" value="37" />
+    <option name="width" value="1721" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -326,7 +529,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -359,10 +561,6 @@
               <option name="myItemId" value="OOP" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voorbeeld-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -392,15 +590,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
+              <option name="myItemId" value="Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,33 +604,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
+              <option name="myItemId" value="Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opdr-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="De-Verdieping-PHP-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="opdr-OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="CKeditor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,11 +622,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
+              <option name="myItemId" value="Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="opdr-OOP" />
+              <option name="myItemId" value="CKeditor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -476,12 +644,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CKeditor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckeditor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,18 +672,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OOP/opdr-OOP/classes" />
-      <recent name="$PROJECT_DIR$/OOP/opdr-OOP/Classes" />
-      <recent name="$PROJECT_DIR$/OOP/opdr-OOP" />
-      <recent name="$PROJECT_DIR$/OEF-werken met SQLITE/html" />
-      <recent name="$PROJECT_DIR$/OEF-werken met SQLITE/includes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Libraries/CKeditor" />
       <recent name="$PROJECT_DIR$/OOP/project-OOP" />
       <recent name="$PROJECT_DIR$/OOP" />
       <recent name="$PROJECT_DIR$/Functies" />
       <recent name="$PROJECT_DIR$/OEF-werken met SQLITE" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Libraries/CKeditor" />
+      <recent name="$PROJECT_DIR$/OOP/opdr-OOP/classes" />
+      <recent name="$PROJECT_DIR$/OOP/opdr-OOP/Classes" />
+      <recent name="$PROJECT_DIR$/OOP/opdr-OOP" />
+      <recent name="$PROJECT_DIR$/OEF-werken met SQLITE/html" />
     </key>
   </component>
   <component name="RunManager">
@@ -631,23 +809,29 @@
       <option name="project" value="LOCAL" />
       <updated>1474880920815</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="OOP&#10;">
+      <created>1474979852581</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1474979852581</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="4837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="72" width="1408" height="1024" extended-state="0" />
+    <frame x="139" y="37" width="1721" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14348462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24717094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24011713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12388326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2930481" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19536424" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19052745" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -685,87 +869,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/overview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/bmi-result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/users.sqlite" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2fc9c5df-6957-41ce-a793-34f10fcf5e43/console.sql" />
-    <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/addUser.php" />
-    <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/listUsers.php" />
-    <entry file="file://$PROJECT_DIR$/OOP/BMI/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/BMI/BMI.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functies/BMI/includes/functions.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="19" selection-start-line="33" selection-start-column="4" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/euro-bef-calculator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/euro-bef-calculator/EuroCalc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/bootstrap/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/bootstrap/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/project-OOP/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -915,120 +1018,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474916158000" expanded="true" signature="1366:1409" placeholder="INSERT INTO ${$table}... " />
-            <marker date="1474916158000" expanded="true" signature="1625:1656" placeholder="DELETE FROM " />
-            <marker date="1474916158000" expanded="true" signature="2074:2112" placeholder="UPDATE ${$ta... " />
-            <marker date="1474916158000" expanded="true" signature="2611:2629" placeholder="SELECT ${$co... ${$table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.583334">
-          <caret line="80" column="69" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="69" />
-          <folding>
-            <marker date="1442495140000" expanded="true" signature="275:343" placeholder="INSERT INTO users... " />
-            <marker date="1442495140000" expanded="true" signature="604:644" placeholder="SELECT * FRO... users" />
-            <marker date="1442495140000" expanded="true" signature="937:956" placeholder="SELECT * FRO... users" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/classes/Weigth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1474916158000" expanded="true" signature="1366:1409" placeholder="INSERT INTO ${$table}... " />
-            <marker date="1474916158000" expanded="true" signature="1625:1656" placeholder="DELETE FROM " />
-            <marker date="1474916158000" expanded="true" signature="2074:2112" placeholder="UPDATE ${$ta... " />
-            <marker date="1474916158000" expanded="true" signature="2611:2629" placeholder="SELECT ${$co... ${$table}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625">
-          <caret line="93" column="21" selection-start-line="86" selection-start-column="8" selection-end-line="93" selection-end-column="21" />
-          <folding>
-            <marker date="1474880614000" expanded="true" signature="1341:1407" placeholder="INSERT INTO ${self::$dbTable}... " />
-            <marker date="1474880614000" expanded="true" signature="1800:1840" placeholder="DELETE FROM " />
-            <marker date="1474880614000" expanded="true" signature="2108:2153" placeholder="SELECT * FRO... ${self::$dbTable}" />
-            <marker date="1474880614000" expanded="true" signature="2361:2375" placeholder="SELECT * FRO... ${self::$dbTable}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/views/login.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <marker date="1474970441000" expanded="true" signature="161:1291" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="172:1283" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="209:332" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="382:674" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="485:667" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="725:1019" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="828:1012" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="1063:1270" placeholder="..." />
-            <marker date="1474970441000" expanded="true" signature="1156:1263" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/views/overview.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/f35aec64/77388d05-6cf7-463d-8563-984291b9711c/users">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/classes/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1299852">
-          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        <state vertical-scroll-proportion="-38.75">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <marker date="1474974138000" expanded="true" signature="577:589" placeholder="INSERT INTO ${$result = $db-&gt;dbInsert(self::$table,['username'=&gt;$this-&gt;username,'password'=&gt;$this-&gt;password])}... " />
             <marker date="1474974138000" expanded="true" signature="577:654" placeholder="INSERT INTO ${self::$table}... " />
@@ -1049,6 +1053,222 @@
             <marker date="1474974138000" expanded="true" signature="2398:2430" placeholder="/** * @retur... " />
             <marker date="1474974138000" expanded="true" signature="2502:2537" placeholder="/** * @param... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/views/overview.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/f35aec64/77388d05-6cf7-463d-8563-984291b9711c/users">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/opdr-OOP/views/login.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="false" />
+            <marker date="1474970441000" expanded="true" signature="161:1291" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="172:1283" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="209:332" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="382:674" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="485:667" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="725:1019" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="828:1012" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="1063:1270" placeholder="..." />
+            <marker date="1474970441000" expanded="true" signature="1156:1263" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1474916158000" expanded="true" signature="1366:1409" placeholder="INSERT INTO ${$table}... " />
+            <marker date="1474916158000" expanded="true" signature="1625:1656" placeholder="DELETE FROM " />
+            <marker date="1474916158000" expanded="true" signature="2074:2112" placeholder="UPDATE ${$ta... " />
+            <marker date="1474916158000" expanded="true" signature="2611:2629" placeholder="SELECT ${$co... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/project-OOP/classes/Quote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="21" selection-start-line="86" selection-start-column="8" selection-end-line="93" selection-end-column="21" />
+          <folding>
+            <marker date="1474880614000" expanded="true" signature="1341:1407" placeholder="INSERT INTO ${self::$dbTable}... " />
+            <marker date="1474880614000" expanded="true" signature="1800:1840" placeholder="DELETE FROM " />
+            <marker date="1474880614000" expanded="true" signature="2108:2153" placeholder="SELECT * FRO... ${self::$dbTable}" />
+            <marker date="1474880614000" expanded="true" signature="2361:2375" placeholder="SELECT * FRO... ${self::$dbTable}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP/voorbeeld-OOP/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="69" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="69" />
+          <folding>
+            <marker date="1442495140000" expanded="true" signature="275:343" placeholder="INSERT INTO users... " />
+            <marker date="1442495140000" expanded="true" signature="604:644" placeholder="SELECT * FRO... users" />
+            <marker date="1442495140000" expanded="true" signature="937:956" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/bg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/bn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/bs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/ca.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/cs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/cy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/da.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/de.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/ckeditor/lang/af.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/editQuote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.416667">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/includes/startHTML.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37890044">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.166667">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/CKeditor/includes/quoteForm.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
