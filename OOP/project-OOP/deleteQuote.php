@@ -9,5 +9,5 @@ if (isset($_GET['id'])){
     $quote->delete();
 
 }
-header('location: index.php');
+header('location: eerstePDF.php');
 exit;

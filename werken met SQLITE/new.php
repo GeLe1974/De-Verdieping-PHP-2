@@ -38,9 +38,9 @@ if(!isset($_POST['actie'])){
     //die;
 
     //echo'<h3>'.$boek['titel'].' van '.$boek['auteur'].' toegevoegd.</h3>';
-    //echo '<a  href="index.php">Terug naar overzicht >> </a> ';
+    //echo '<a  href="eerstePDF.php">Terug naar overzicht >> </a> ';
     unset($_POST);
-    header('location: index.php');
+    header('location: eerstePDF.php');
 
     }
 

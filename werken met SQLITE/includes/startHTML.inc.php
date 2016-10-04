@@ -20,7 +20,7 @@ echo"
     <ul class=\"dropdown menu\" data-dropdown-menu>
       <li class=\"menu-text\">Boeken</li>
       <li>
-        <a href=\"index.php#\">Overzicht</a>
+        <a href=\"eerstePDF.php#\">Overzicht</a>
 
       </li>
       <li><a href=\"new.php\">Nieuw</a></li>

@@ -13,14 +13,14 @@ if (isset($_GET['id'])) {
 
     if (empty($formerrors)) {
       $quote->save();
-      header('location:index.php');
+      header('location:eerstePDF.php');
       exit;
     }
   }
 }
 
 if (!isset($quote) or !$quote) {
-  header("location: index.php");
+  header("location: eerstePDF.php");
   exit;
 }
 

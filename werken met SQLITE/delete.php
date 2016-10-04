@@ -16,4 +16,4 @@ $query = $conn->prepare("DELETE FROM Boeken WHERE id = $id");
 
 $query->execute();
 
-header('location: index.php');
+header('location: eerstePDF.php');

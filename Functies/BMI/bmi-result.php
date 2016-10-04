@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
 
 } else {
   // Als er niets doorgestuurd werd
-  header('location: index.php');
+  header('location: eerstePDF.php');
   exit;
 
 }
