@@ -7,9 +7,47 @@
  */
 
 include_once 'functies.php';
+include 'jpgraph-4.0.1/src/jpgraph.php';
+include 'jpgraph-4.0.1/src/jpgraph_bar.php';
+
 
 $studenten = getAllGrades();
 
+//var_dump($studenten);
+$dataNaam = [];
+$dataPhp1 = [];
+$dataPhp2 = [];
+foreach ($studenten as $student){
+
+    array_push($dataPhp1,$student['php1']);
+    array_push($dataPhp2,$student['php2']);
+    array_push($dataNaam,$naam = ($student['naam'] ." " . $student['voornaam']));
+}
+
+//echo json_encode($studenten);
+//var_dump($dataPhp1);
+//var_dump($dataPhp2);
+//var_dump($dataNaam);
+
+
+
+
+
+$graph = new Graph(800,400);
+$graph->SetScale('textlin',0,40);
+
+
+$bar1 = new BarPlot($dataPhp1);
+$bar1->SetFillColor(0,255,0);
+$bar2 = new BarPlot($dataPhp2);
+$bar2->SetFillColor(0,0,0);
+$lot = new AccBarPlot([$bar1,$bar2]);
+
+
+$graph->Add($lot);
+$graph->title->Set('Rapport PHP');
+
+$graph->Stroke();
 
 
 

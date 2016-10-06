@@ -8,9 +8,10 @@
 function getAllGrades()
 {
     $conn = new PDO('sqlite:database.sqlite');
-    $query = $conn->prepare("SELECT naam,voornaam,php1,php2 FROM studenten ORDER BY naam ASC ");
+    //$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $query = $conn->prepare("SELECT * FROM studenten ORDER BY naam ASC ");
     $query->execute();
-    $studenten = $query->fetchAll();
+    $studenten = $query->fetchAll(PDO::FETCH_ASSOC);
 
     return $studenten;
 //var_dump($studenten);
